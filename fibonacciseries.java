@@ -9,4 +9,8 @@ public class fibonacciseries {
             b = next;
         }
     }
+
+    public static void main(String[] args){
+        printFibonacci(10);
+    }
 }
