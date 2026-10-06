@@ -23,3 +23,11 @@
 ![string reverse](image-2.png)
 
 ### Explanation: Swapping is performed from the beginning and the end using the two-pointer technique.
+
+## 4 . Fizz Buzz
+
+### Problem: Print numbers from 1 to n. If divisible by 3, print "Fizz"; if by 5, print "Buzz"; if by both, print "FizzBuzz".
+
+![fizzbuzz](image-3.png)
+
+### Explanation: It is important to check 15 (3×5) first; otherwise, the output will be incorrect.
