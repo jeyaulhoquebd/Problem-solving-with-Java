@@ -16,3 +16,10 @@
 
 ### Explanation: At each step, the next number is obtained by adding the previous two numbers.
 
+## 3. String Reverse
+
+### Problem: Print a string in reverse.
+
+![string reverse](image-2.png)
+
+### Explanation: Swapping is performed from the beginning and the end using the two-pointer technique.
