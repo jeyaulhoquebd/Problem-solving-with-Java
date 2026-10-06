@@ -21,3 +21,4 @@ public class Transaction {
         return String.format("%-19s | %-10s | %10.2f | Balance: %.2f", dataTime, type, amount, balanceAfter);
     }
 }
+
