@@ -26,5 +26,7 @@ public class LargestOfThree {
 
         System.out.println("Largest number is = " + largest);
         scanner.close();
+
+        
     }
 }
