@@ -6,7 +6,8 @@ public class LargestOfThree {
         Scanner scanner = new Scanner(System.in);
 
         System.out.print("Enter first number =");
+        int a = scanner.nextInt();
 
-        
+        System.out.print("Enter second number =");
     }
 }
