@@ -23,5 +23,8 @@ public class LargestOfThree {
         } else {
             largest = c;
         }
+
+        System.out.println("Largest number is = " + largest);
+        scanner.close();
     }
 }
