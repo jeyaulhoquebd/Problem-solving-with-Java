@@ -13,5 +13,13 @@ public class LargestOfThree {
 
         System.out.print("Enter third number =");
         int c = scanner.nextInt();
+
+        int largest;
+
+        if (a >= b && a >=c){
+            largest = a;
+        } else if (b >= a && b >= c) {
+            largest = b;
+        }
     }
 }
