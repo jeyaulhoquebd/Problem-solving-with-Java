@@ -31,3 +31,11 @@
 ![fizzbuzz](image-3.png)
 
 ### Explanation: It is important to check 15 (3×5) first; otherwise, the output will be incorrect.
+
+
+
+## 5. Simple if-else (Beginner Friendly)
+
+![alt text](image-4.png)
+
+### Java program to find the largest of three numbers.
