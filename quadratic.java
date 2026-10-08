@@ -32,5 +32,12 @@ public class quadratic {
             scanner.close();
             return ;
         }
+
+        // Calculate discriminant
+        double discriminant = (b*b) - (4*a*c);
+
+        System.out.println(" \n[!] 'a' cannot be 0. This is not a quadratic equation. ");
+        System.out.printf("Disctiminant (D) = %.2f%n", discriminant );
+        System.out.println("");
     }
 }
