@@ -40,3 +40,10 @@
 
 ### Java program to find the largest of three numbers.
 
+
+## 6. 🧮 Quadratic Equation Solver in Java
+
+
+![alt text](image-5.png)
+
+### Scanner class to accept user input dynamically and handles all three mathematical cases based on the discriminant (\(b^2 - 4ac\)): two real/distinct roots, one real/equal root, and two complex (imaginary) roots.
