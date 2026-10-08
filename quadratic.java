@@ -57,7 +57,10 @@ public class quadratic {
             System.out.printf("Root 1 = Root 2 = %.2f%n ", root);
 
         } else{
-            double re
+            double realPart = -b / (2 * a);
+            double imaginatyPart = Math.sqrt(-discriminant) / (2 * a);
+
+            
         }
     }
 }
