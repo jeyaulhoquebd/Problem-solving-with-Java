@@ -38,6 +38,14 @@ public class quadratic {
 
         System.out.println(" \n[!] 'a' cannot be 0. This is not a quadratic equation. ");
         System.out.printf("Disctiminant (D) = %.2f%n", discriminant );
-        System.out.println("");
+        System.out.println("------------------------");
+
+        // Determine nature of roots
+        if (discriminant > 0 ){
+            double root1 = (-b + Math.sqrt(discriminant)) / (2 * a);
+
+            System.out.println("Roots are real and distinct");
+            
+        }
     }
 }
