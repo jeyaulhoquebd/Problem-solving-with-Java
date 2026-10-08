@@ -43,9 +43,11 @@ public class quadratic {
         // Determine nature of roots
         if (discriminant > 0 ){
             double root1 = (-b + Math.sqrt(discriminant)) / (2 * a);
+            double root2 = (-b - Math.sqrt(discriminant)) / (2 * a);
 
             System.out.println("Roots are real and distinct");
-            
+            System.out.printf("Root 1 = %.2f%n" , root1);
+            System.out.printf("Root 2 = %.2f%n", root2);
         }
     }
 }
