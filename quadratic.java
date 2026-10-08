@@ -27,7 +27,10 @@ public class quadratic {
         // Check if it s a valid quadratic equation
 
         if (a == 0) {
-            System.out.println(" \n[!] 'a' cannot be 0. this is not a quadtatic eq ");
+            System.out.println(" \n[!] 'a' cannot be 0. this is not a quadtatic equation.");
+
+            scanner.close();
+            return ;
         }
     }
 }
