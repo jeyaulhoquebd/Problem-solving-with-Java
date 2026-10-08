@@ -64,7 +64,12 @@ public class quadratic {
             System.out.printf("Root 1 = %.2f + %.2fi%n", realPart, imaginatyPart);
 
             System.out.printf("Root 2 = %.2f - %.2fi%n", realPart, imaginatyPart);
+         
+            
             
         }
+
+        System.out.println("Hi Code");
+        scanner.close();
     }
 }
