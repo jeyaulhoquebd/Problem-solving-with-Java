@@ -48,6 +48,16 @@ public class quadratic {
             System.out.println("Roots are real and distinct");
             System.out.printf("Root 1 = %.2f%n" , root1);
             System.out.printf("Root 2 = %.2f%n", root2);
+
+
+        } else if (discriminant == 0){
+            double root = -b / (2 * a);
+
+            System.out.println("Roots are REAL and EQUAL");
+            System.out.printf("Root 1 = Root 2 = %.2f%n ", root);
+
+        } else{
+            double re
         }
     }
 }
