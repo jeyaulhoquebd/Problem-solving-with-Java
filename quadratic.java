@@ -8,5 +8,14 @@ public class quadratic {
         System.out.println("Quadratic Equation Solver");
         System.out.println("Quadratic Equation Solver");
         System.out.println("Quadratic Equation Solver");
+
+
+        // Input coefficients
+
+        System.out.print("Enter Coefficient a = ");
+        double a = scanner.nextDouble();
+
+
+        s
     }
 }
