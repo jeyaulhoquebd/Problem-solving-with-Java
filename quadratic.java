@@ -60,6 +60,10 @@ public class quadratic {
             double realPart = -b / (2 * a);
             double imaginatyPart = Math.sqrt(-discriminant) / (2 * a);
 
+            System.out.println("Roots are COMPLEX (Imaginary): ");
+            System.out.printf("Root 1 = %.2f + %.2fi%n", realPart, imaginatyPart);
+
+            System.out.printf("Root 2 = %.2f - %.2fi%n", realPart, imaginatyPart);
             
         }
     }
